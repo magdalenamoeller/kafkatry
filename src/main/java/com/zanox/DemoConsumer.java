@@ -22,7 +22,7 @@ public class DemoConsumer implements Runnable{
         t.start();
         System.out.println("Started. Reading from Kafka...");
         try {
-            Thread.sleep(5000);
+            Thread.sleep(500000);
             System.out.println("...Done");
         } catch (InterruptedException ex) {
             // ignore
